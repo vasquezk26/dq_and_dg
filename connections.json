@@ -1,0 +1,6 @@
+{
+  "username": "postgres",
+  "password": "my_password",
+  "db_name": "retail_db",
+  "tbl_name": "orders"
+}
