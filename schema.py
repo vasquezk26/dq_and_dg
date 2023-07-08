@@ -16,7 +16,7 @@ from marshmallow import fields
 
 class SchemaCheck(Schema):
     order_id = fields.Int()
-    order_date = fields.AwareDateTime()
+    order_date = fields.Raw(spark_type=TimestampType())
     order_customer_id = fields.Int()
     order_status = fields.Str()
 
